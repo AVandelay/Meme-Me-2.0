@@ -17,6 +17,7 @@
 		E2CB59EE1F130FD700775986 /* SavedMemeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CB59ED1F130FD700775986 /* SavedMemeCollectionViewCell.swift */; };
 		E2CB59F01F130FF300775986 /* Meme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CB59EF1F130FF300775986 /* Meme.swift */; };
 		E2CB59F21F13111900775986 /* MemeCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CB59F11F13111900775986 /* MemeCreatorViewController.swift */; };
+		E2CB59F41F131E0500775986 /* MemeTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CB59F31F131E0500775986 /* MemeTextFieldDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E2CB59ED1F130FD700775986 /* SavedMemeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SavedMemeCollectionViewCell.swift; sourceTree = "<group>"; };
 		E2CB59EF1F130FF300775986 /* Meme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meme.swift; sourceTree = "<group>"; };
 		E2CB59F11F13111900775986 /* MemeCreatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeCreatorViewController.swift; sourceTree = "<group>"; };
+		E2CB59F31F131E0500775986 /* MemeTextFieldDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemeTextFieldDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				E2CB59ED1F130FD700775986 /* SavedMemeCollectionViewCell.swift */,
 				E2CB59EF1F130FF300775986 /* Meme.swift */,
 				E2CB59F11F13111900775986 /* MemeCreatorViewController.swift */,
+				E2CB59F31F131E0500775986 /* MemeTextFieldDelegate.swift */,
 			);
 			path = "Meme Me 2.0";
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 				E2CB59F01F130FF300775986 /* Meme.swift in Sources */,
 				E2CB59EE1F130FD700775986 /* SavedMemeCollectionViewCell.swift in Sources */,
 				E2CB59F21F13111900775986 /* MemeCreatorViewController.swift in Sources */,
+				E2CB59F41F131E0500775986 /* MemeTextFieldDelegate.swift in Sources */,
 				E2CB59EA1F12FE9B00775986 /* SavedMemeCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

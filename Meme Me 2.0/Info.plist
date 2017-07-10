@@ -41,5 +41,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Meme Me 2.0 needs to access your camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Meme Me 2.0 needs to access your photo library</string>
 </dict>
 </plist>

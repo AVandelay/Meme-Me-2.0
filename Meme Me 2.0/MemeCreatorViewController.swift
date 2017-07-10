@@ -124,6 +124,9 @@ class MemeCreatorViewController: UIViewController, UIImagePickerControllerDelega
             let image = self.memeImage.image!
 
             let meme: Meme = Meme(topText: topTF, bottomText: bottomTF, originalImage: image, memedImage: memedImage)
+
+            let appDelegate = UIApplication.shared.delegate as! AppDelegate
+            appDelegate.memes.append(meme)
         }
     }
 

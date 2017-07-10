@@ -12,6 +12,8 @@ private let reuseIdentifier = "Cell"
 
 class SavedMemeCollectionViewController: UICollectionViewController, UINavigationControllerDelegate {
 
+    var memes = [Meme]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Collection View"
